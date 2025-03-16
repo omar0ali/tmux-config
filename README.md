@@ -40,3 +40,4 @@ bind-key k select-pane -U
 bind-key l select-pane -R
 ```
 
+>checkout my [nvim-config](https://github.com/omar0ali/nvim-config)
