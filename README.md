@@ -12,18 +12,20 @@ tmux source-file ~/.tmux.conf
 
 ### hotkeys
 Key Binding	Action
-h, j, k, l:         Move between panes (Vim-style)
-Prefix + H/J/K/L:   Resize panes
-Prefix + r:         Reload tmux configuration
-Prefix + c:     	Create new window
-Prefix + &:     	Kill current window
-Prefix + n:     	Switch to next window
-Prefix + p:     	Switch to previous window
+| Key Binding         | Action                         |
+|---------------------|--------------------------------|
+| `h`, `j`, `k`, `l` | Move between panes (Vim-style) |
+| `Prefix + H/J/K/L` | Resize panes                   |
+| `Prefix + r`       | Reload tmux configuration      |
+| `Prefix + c`       | Create new window              |
+| `Prefix + &`       | Kill current window            |
+| `Prefix + n`       | Switch to next window          |
+| `Prefix + p`       | Switch to previous window      |
 
 >[!NOTE]
 >The default prefix key is Ctrl + b. You can change this in tmux.conf.
 
-### Customization
+### customization
 
 ```bash
 set-option -g status-bg blue  # "blue" to another color
