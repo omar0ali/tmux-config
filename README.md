@@ -1,11 +1,11 @@
 # tmux-config
 tmux configuration with mouse support, pane navigation, and custom keybindings.
 
-## setup
+## Setup
 Clone this repo and link the config file:
 
 ```bash
-git clone https://github.com/yourusername/tmux-config.git ~/.config/tmux
+git clone https://github.com/omar0ali/tmux-config.git ~/.config/tmux
 ln -s ~/.config/tmux/tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 ```
@@ -14,13 +14,13 @@ tmux source-file ~/.tmux.conf
 Key Binding	Action
 | Key Binding         | Action                         |
 |---------------------|--------------------------------|
-| `h`, `j`, `k`, `l` | Move between panes (Vim-style) |
-| `Prefix + H/J/K/L` | Resize panes                   |
-| `Prefix + r`       | Reload tmux configuration      |
-| `Prefix + c`       | Create new window              |
-| `Prefix + &`       | Kill current window            |
-| `Prefix + n`       | Switch to next window          |
-| `Prefix + p`       | Switch to previous window      |
+| `h`, `j`, `k`, `l`  | Move between panes (Vim-style) |
+| `Prefix + H/J/K/L`  | Resize panes                   |
+| `Prefix + r`        | Reload tmux configuration      |
+| `Prefix + c`        | Create new window              |
+| `Prefix + &`        | Kill current window            |
+| `Prefix + n`        | Switch to next window          |
+| `Prefix + p`        | Switch to previous window      |
 
 >[!NOTE]
 >The default prefix key is Ctrl + b. You can change this in tmux.conf.
@@ -39,5 +39,4 @@ bind-key j select-pane -D
 bind-key k select-pane -U
 bind-key l select-pane -R
 ```
-
->check out my [nvim-config](https://github.com/omar0ali/nvim-config)
+- Check out my [nvim-config](https://github.com/omar0ali/nvim-config)
